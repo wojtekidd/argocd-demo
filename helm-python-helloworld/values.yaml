@@ -3,6 +3,6 @@ namespace:
  
 image:
   repository: wojtekidd/python-helloworld 
-  tag: v1.0.0
+  tag: v1
 
 replicaCount: 3
