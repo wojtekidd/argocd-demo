@@ -21,9 +21,7 @@ spec:
         app: python-helloworld
     spec:
       containers:
-<<<<<<< HEAD
       - image: wojtekidd/python-helloworld:v1
->>>>>>> 8a8c3560bc77866a3ba75c514482a213ca2cc9ed
         imagePullPolicy: IfNotPresent
         name: python-helloworld
         resources:
