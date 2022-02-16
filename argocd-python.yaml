@@ -9,7 +9,9 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: python-manifests
+    helm:
+      valueFiles:
+      - values.yaml
+    path: helm-python-helloworld
     repoURL: https://github.com/wojtekidd/argocd-demo
     targetRevision: HEAD
-  syncPolicy: {}
